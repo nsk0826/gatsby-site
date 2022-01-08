@@ -1,12 +1,10 @@
 import React from "react";
-import { Link } from "gatsby";
+import Header from "../components/header.js";
 
 const BlogPage = () => {
   return (
     <div>
-      <ul>
-        <Link to="/about">About</Link>
-      </ul>
+      <Header/>
       <h1>Gatsby Blog Site</h1>
     </div>
   )
