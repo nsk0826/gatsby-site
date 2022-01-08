@@ -1,13 +1,12 @@
 import React from "react";
-import Header from "../components/header.js";
-import Footer from "../components/footer.js";
+import Layout from "../components/layout.js";
 
 const BlogPage = () => {
   return (
     <div>
-      <Header/>
+      <Layout>
       <h1>Gatsby Blog Site</h1>
-      <Footer/>
+      </Layout>
     </div>
   )
 }
