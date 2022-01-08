@@ -5,7 +5,7 @@ const BlogPage = () => {
   return (
     <div>
       <Layout>
-      <h1>Gatsby Blog Site</h1>
+        <h1 className="title">Gatsby Blog Site</h1>
       </Layout>
     </div>
   )
