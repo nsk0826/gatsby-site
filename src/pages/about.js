@@ -24,6 +24,16 @@ const About = ( {data} ) => {
                 <td>{node.ctime}</td>
               </tr>
             ))}
+            {/* この書き方でもいい  */}
+            {data.allFile.nodes.map((foo) => {
+              return(
+                <tr>
+                  <td>{foo.relativePath}</td>
+                  <td>{foo.size}</td>
+                  <td>{foo.ctime}</td>
+                </tr>
+              )
+            })}
           </tbody>
         </table>
       </Layout>
