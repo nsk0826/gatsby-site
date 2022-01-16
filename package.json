@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "dotenv": "^12.0.4",
     "gatsby": "^4.4.0",
     "gatsby-source-filesystem": "^4.4.0",
     "gatsby-source-microcms": "^2.0.0",
