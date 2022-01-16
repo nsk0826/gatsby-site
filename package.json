@@ -16,6 +16,8 @@
   "dependencies": {
     "gatsby": "^4.4.0",
     "gatsby-source-filesystem": "^4.4.0",
+    "gatsby-source-microcms": "^2.0.0",
+    "gatsby-source-strapi": "^1.0.2",
     "gatsby-transformer-remark": "^5.4.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
