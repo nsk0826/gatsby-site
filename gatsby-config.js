@@ -3,6 +3,14 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+const path = require('path');
+console.log('env : ' + process.env.NODE_ENV)
+
+require('dotenv').config({
+  path:`env.${process.env.NODE_ENV}`
+});
+
+console.log(process.env.API_KEY)
 
 module.exports = {
   siteMetadata: {
@@ -20,6 +28,18 @@ module.exports = {
         path: `${__dirname}/src/`,
       }
     },
-    "gatsby-transformer-remark"
+    "gatsby-transformer-remark",
+    {
+      resolve:"gatsby-source-microcms",
+      options:{
+        apiKey:process.env.API_KEY,
+        serviceId:'nskservices',
+        apis:[
+          {
+            endpoint:"test02"
+          },
+        ],
+      },
+    },
   ],
 }
