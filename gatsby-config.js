@@ -4,12 +4,11 @@
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
 const path = require('path');
-console.log('env : ' + process.env.NODE_ENV)
+console.log('path : ' + path)
 
 require('dotenv').config({
   path:`env.${process.env.NODE_ENV}`
 });
-
 console.log(process.env.API_KEY)
 
 module.exports = {
