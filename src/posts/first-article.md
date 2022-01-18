@@ -9,4 +9,4 @@ Gatsby でのサイト上に表示される記事です
 
 ブラウザに表示されるかの確認。
 
-![fire](../../images/fire.png)
+![fire](../images/fire.png)
