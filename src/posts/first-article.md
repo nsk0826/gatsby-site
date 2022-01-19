@@ -1,6 +1,7 @@
 ---
 title: "初めての記事"
 date: "2022-01-11"
+topImage: "../images/bat.png"
 ---
 
 ### Gatsby での記事
