@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header';
 import Footer from './footer';
+import cmsTestPage from '../pages/cmsTest';
 import "./layout.css";
 
 const Layout = ( props ) => {
@@ -9,6 +10,7 @@ const Layout = ( props ) => {
       <Header/>
         { props.children }
       <Footer/>
+      <cmsTestPage/>
     </div>
   )
 }
