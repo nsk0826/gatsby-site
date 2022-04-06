@@ -10,7 +10,6 @@ const Layout = ( props ) => {
       <Header/>
         { props.children }
       <Footer/>
-      <cmsTestPage/>
     </div>
   )
 }
